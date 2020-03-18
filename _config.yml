@@ -6,14 +6,14 @@
 title: 猫使
 subtitle: '一个入门级全栈攻城狮——编号9527'
 description: 'PHP,MySQL,Redis,Nginx'
-keywords: PHP,MySQL,Redis,Nginx.Linux,CentOS 
+keywords: Hexo,PHP,MySQL,Redis,Nginx.Linux,CentOS 
 author: McFull
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://mcfull.net
+url: https://www.mcfull.net
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
