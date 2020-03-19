@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.mcfull.net
+url: http://mcfull.net
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -101,3 +101,26 @@ deploy:
   type: 'git'
   repo: 'git@github.com:mcfull/mcfull.github.io.git'
   branch: master
+
+admin:
+  username: admin
+  #password_hash: be121740bf988b2225a313fa1f107ca1
+  password_hash: $2a$10$2gu.gbwuMONwZcfC8xy//ehJi/gcwlQh3rCBqDDM47JnMU3ru3Cma
+  secret: my super secret phrase
+  #Windows
+  #deployCommand: 'hexo-deploy.bat'
+  #Linux
+  deployCommand: './hexo-deploy.sh'
+
+metadata:
+  author_id: defaultAuthorId
+  language: zh-CN
+
+#RSS Feed
+plugin:
+  - hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
